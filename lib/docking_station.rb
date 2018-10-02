@@ -1,8 +1,10 @@
 class DockingStation
-  def initialize(init)
-    @docking_station = init
+  def release_bike
   end
-  def station 
-    @docking_station = release_bike
+
+end
+
+class Bike
+  def working?
   end
 end
