@@ -1,10 +1,11 @@
 class DockingStation
+
   def release_bike
+
   end
 
-end
-
-class Bike
-  def working?
+  def dock(bike)
+    bike 
   end
+
 end
