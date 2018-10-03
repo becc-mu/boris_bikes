@@ -1,5 +1,9 @@
 require "bike"
 
-describe "bike to respond to working?" do
-  expect(Bike).respond_to(:working?)
+describe "Bike" do
+
+  it "responds to working" do
+  expect(subject).respond_to(:working?)
+  end 
+
 end
