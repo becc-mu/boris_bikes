@@ -22,4 +22,10 @@ it "allow to dock a bike" do
   expect(station.dock(bike)).to eq "#{bike} docked"
 end
 
+it "returns docks bikes" do
+  bike = Bike.new
+  subject.dock(bike)
+  expect(subject.bike).to eq bike 
+end
+
 end
