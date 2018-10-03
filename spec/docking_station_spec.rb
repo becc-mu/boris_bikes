@@ -10,9 +10,10 @@ it "respond to dock" do
   expect(subject).to respond_to :dock
 end
 
-it "release a bike" do
-  station = DockingStation.new
-  expect(station.release_bike).to eq bike 
+
+it "releases working bikes" do
+  bike = subject.release_bike
+  expect(bike).to be_working
 end
 
 end
