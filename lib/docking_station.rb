@@ -7,7 +7,7 @@ class DockingStation
   end
 
   def dock(bike)
-
+    "#{bike} docked"
   end
 
 end

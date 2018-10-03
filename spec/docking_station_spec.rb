@@ -16,4 +16,10 @@ it "releases working bikes" do
   expect(bike).to be_working
 end
 
+it "allow to dock a bike" do
+  station = DockingStation.new
+  bike = Bike.new
+  expect(station.dock(bike)).to eq "#{bike} docked"
+end
+
 end
